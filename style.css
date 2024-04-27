@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0e0e1a;
+    color: #fff;
+}
+
+header {
+    background-color: #1a1a2e;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #8a2be2;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+header h1:hover {
+    color: #ffff00;
+    font-size: 3rem;
+}
+
+main {
+    padding: 20px;
+}
+
+.price-section {
+    margin-bottom: 30px;
+}
+
+.price-section h2 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    color: #8a2be2;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+.price-section h2:hover {
+    color: #ffff00;
+    font-size: 2rem;
+}
+
+.price-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.price-section ul li {
+    margin-bottom: 5px;
+    color: #ff4d4d;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+.price-section ul li:hover {
+    color: #90ee90;
+    font-size: 1.2rem;
+}
+
+.price-section ul li span {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1a1a2e;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.price-section p {
+    margin-bottom: 5px;
+    color: #ff4d4d;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+.price-section p:hover {
+    color: #90ee90;
+    font-size: 1.2rem;
+}
+
+.price-section p {
+    font-weight: bold;
+}
