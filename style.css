@@ -1,56 +1,117 @@
 body {
-    background-color: #000;
-    color: #fff;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #0e0e1a;
+    color: #fff;
 }
 
 header {
+    background-color: #1a1a2e;
+    padding: 20px 0;
     text-align: center;
-    padding: 20px;
 }
 
-h1 {
-    font-size: 36px;
+header h1 {
+    font-size: 2.5rem;
     margin: 0;
+    color: #8a2be2;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+header h1:hover {
+    color: #ffff00;
+    font-size: 3rem;
 }
 
 main {
     padding: 20px;
 }
 
-.price-section, .about-us {
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    margin-bottom: 20px;
+.price-section {
+    margin-bottom: 30px;
 }
 
-.price-section h2, .about-us h2 {
-    font-size: 24px;
+.price-section h2 {
     margin-bottom: 10px;
+    font-size: 1.8rem;
+    color: #8a2be2;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+.price-section h2:hover {
+    color: #ffff00;
+    font-size: 2rem;
 }
 
 .price-section ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
 }
 
-.price-section li, .price-section p {
-    font-size: 18px;
-    margin-bottom: 10px;
+.price-section ul li {
+    margin-bottom: 5px;
+    color: #ff4d4d;
+    transition: color 0.3s, font-size 0.3s;
 }
 
-.about-us p {
-    font-size: 16px;
+.price-section ul li:hover {
+    color: #90ee90;
+    font-size: 1.2rem;
+}
+
+.price-section ul li span {
+    font-weight: bold;
+}
+
+.vip-price {
+    margin-top: 20px;
+}
+
+.vip-price p {
+    font-size: 1.5rem;
+    color: #ff4d4d;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+.vip-price p:hover {
+    color: #90ee90;
+    font-size: 1.7rem;
+}
+
+.price-label {
+    font-size: 1.5rem;
+    color: #ff4d4d;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+.price-label:hover {
+    color: #90ee90;
+    font-size: 1.7rem;
+}
+
+.telegram-link {
+    color: #8a2be2;
+    text-decoration: none;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+.telegram-link:hover {
+    color: #ffff00;
+    font-size: 1.2rem;
 }
 
 footer {
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 20px;
+    background-color: #1a1a2e;
+    padding: 10px 0;
     text-align: center;
 }
 
 footer a {
-    color: #fff;
+    color: #ff9900;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
