@@ -93,19 +93,3 @@ footer a:hover {
 .price-section p {
     font-weight: bold;
 }
-
-.about-us {
-    margin-bottom: 30px;
-}
-
-.about-us h2 {
-    margin-bottom: 10px;
-    font-size: 1.8rem;
-    color: #8a2be2;
-    transition: color 0.3s, font-size 0.3s;
-}
-
-.about-us:hover {
-    color: #90ee90;
-    font-size: 1.2rem;
-}
