@@ -1,42 +1,9 @@
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateZ(-200px);
-    }
-    to {
-        opacity: 1;
-        transform: translateZ(0);
-    }
-}
-
-@keyframes rotateY {
-    from {
-        transform: rotateY(0);
-    }
-    to {
-        transform: rotateY(360deg);
-    }
-}
-
-@keyframes rotateX {
-    from {
-        transform: rotateX(0);
-    }
-    to {
-        transform: rotateX(360deg);
-    }
-}
-
 body {
     background-color: #000;
     color: #fff;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-}
-
-header, main, footer {
-    animation: fadeIn 2s forwards;
 }
 
 header {
@@ -50,31 +17,13 @@ h1 {
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: calc(100vh - 140px);
+    padding: 20px;
 }
 
 .price-section, .about-us {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
-    margin: 20px;
-    width: 300px;
-    height: 200px;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-    perspective: 1000px;
-}
-
-.price-section {
-    transform-style: preserve-3d;
-    animation: rotateY 6s infinite linear;
-}
-
-.about-us {
-    transform-style: preserve-3d;
-    animation: rotateX 6s infinite linear;
+    margin-bottom: 20px;
 }
 
 .price-section h2, .about-us h2 {
@@ -97,17 +46,11 @@ main {
 }
 
 footer {
-    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
+    text-align: center;
 }
 
 footer a {
     color: #fff;
-    text-decoration: none;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.3s ease;
-}
-
-footer a:hover {
-    border-bottom: 2px solid #fff;
 }
