@@ -52,7 +52,7 @@ main {
 .price-section ul li {
     margin-bottom: 5px;
     color: #ff4d4d;
-    transition: color 0.3s, font-size 0.3s;
+    transition: color 0.3s, font-size 0.3s; /* Додано перехід для зміни кольору та розміру тексту */
 }
 
 .price-section ul li:hover {
@@ -62,43 +62,6 @@ main {
 
 .price-section ul li span {
     font-weight: bold;
-}
-
-.vip-price {
-    margin-top: 20px;
-}
-
-.vip-price p {
-    font-size: 1.5rem;
-    color: #ff4d4d;
-    transition: color 0.3s, font-size 0.3s;
-}
-
-.vip-price p:hover {
-    color: #90ee90;
-    font-size: 1.7rem;
-}
-
-.price-label {
-    font-size: 1.5rem;
-    color: #ff4d4d;
-    transition: color 0.3s, font-size 0.3s;
-}
-
-.price-label:hover {
-    color: #90ee90;
-    font-size: 1.7rem;
-}
-
-.telegram-link {
-    color: #8a2be2;
-    text-decoration: none;
-    transition: color 0.3s, font-size 0.3s;
-}
-
-.telegram-link:hover {
-    color: #ffff00;
-    font-size: 1.2rem;
 }
 
 footer {
@@ -114,4 +77,19 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.price-section p {
+    margin-bottom: 5px;
+    color: #ff4d4d;
+    transition: color 0.3s, font-size 0.3s; /* Додано перехід для зміни кольору та розміру тексту */
+}
+
+.price-section p:hover {
+    color: #90ee90;
+    font-size: 1.2rem;
+}
+
+.price-section p {
+    font-weight: bold;
 }
